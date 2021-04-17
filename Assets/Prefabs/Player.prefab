@@ -2051,8 +2051,8 @@ GameObject:
   - component: {fileID: 8551491421686661895}
   - component: {fileID: 8551491421690913809}
   - component: {fileID: 8551491421682722881}
-  - component: {fileID: 8551491421684861735}
-  - component: {fileID: 8551491421684771587}
+  - component: {fileID: 5073915803081572813}
+  - component: {fileID: 5073915803081572814}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -2126,7 +2126,7 @@ CapsuleCollider:
   m_Height: 0.7581748
   m_Direction: 1
   m_Center: {x: 0.004876539, y: 0.3790874, z: 0}
---- !u!114 &8551491421684861735
+--- !u!114 &5073915803081572813
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2135,10 +2135,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 8551491421696122945}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 521b611700410be45810047f0a74e899, type: 3}
+  m_Script: {fileID: 11500000, guid: a304965ff3a74d340b2e82e5922ae5df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &8551491421684771587
+--- !u!114 &5073915803081572814
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2147,7 +2147,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8551491421696122945}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ce7a80d520cacc042b5fe14f373d8173, type: 3}
+  m_Script: {fileID: 11500000, guid: 4598dccc016243e4cbd8683c15c1e3a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_MovingTurnSpeed: 180
@@ -2157,4 +2157,4 @@ MonoBehaviour:
   m_RunCycleLegOffset: 0.2
   m_MoveSpeedMultiplier: 1
   m_AnimSpeedMultiplier: 1
-  m_GroundCheckDistance: 0.3
+  m_GroundCheckDistance: 0.1
